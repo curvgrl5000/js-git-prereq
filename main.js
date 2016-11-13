@@ -15,11 +15,12 @@
     listEl.appendChild(entry);
   }
 
-  //================================
-  // Your code here
+  for (var i = 0; i <= books.length; i++) {
+    var texty_text = " " + books[i].title + " by " + books[i].author + " (" + books[i].year + ")";
 
+    appendListItem(texty_text);
+  }
 
-
-  //================================
+  
 
 }());
